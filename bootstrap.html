@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Bootstrap</title>
+    
+     <style>
+        
+        .container1 {
+            display: flex;        
+            flex-direction: column;
+        }
+        aside {
+            background: lightgray;
+            border: thin dotted black;
+            padding: 0em 2em;
+            border-radius: 2em;
+        }
+        main {
+            padding: 2em;
+        }
+        
+        @media(min-width: 400px) {
+            .container1 {
+                flex-direction: row;
+            }
+            aside {
+                flex: 1;
+            }
+            main {
+                flex: 2;
+            }
+        }
+    </style>
+    
+     <link rel="stylesheet" href="menu_styles.css">
+     
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<script
+			  src="https://code.jquery.com/jquery-3.1.0.slim.min.js"
+			  integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="
+			  crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+<div class="jumbotron">
+ <div class="container">
+  <h1>GAME OF THRONES!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quibusdam optio asperiores rerum consequuntur dolorum ullam, impedit maiores, ad ea accusantium illo, aperiam ab culpa sed non enim? Incidunt, eaque.</p>
+  
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">GoT</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Plot <span class="sr-only">(current)</span></a></li>
+       <li><a href="#">Characters</a></li>
+        <li><a href="#">books</a></li>
+         <li><a href="#">directors</a></li>
+    
+        <li class="dropdown">
+         
+         
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">houses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Stark</a></li>
+            <li><a href="#">Lannister</a></li>
+            <li><a href="#">Baratheon</a></li>
+            <li><a href="#">Targaryen</a></li>
+
+          </ul>
+        </li>
+      </ul> 
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<h1>Positioning</h1>
+    
+<div class="container1">
+               <main>
+                <h2>Main content</h2>
+                <details>
+                   <summary>Click to see options</summary>
+                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatem ullam voluptatum, eos doloremque ea dicta perferendis sint reiciendis sit laboriosam officia facere optio deleniti, molestias sunt, possimus exercitationem! Ad! </strong></p>
+                </details>
+                
+                <p><img src="https://hrtechweekly.files.wordpress.com/2016/05/hris-got1.png?w=640" class="img-responsive" alt="Responsive image"></p>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolore enim, sequi nemo, qui quibusdam unde distinctio quisquam dignissimos in dolorum excepturi debitis fugiat ut ipsa, voluptas corporis architecto nihil.</p>
+                <p>Nisi eos illo, illum inventore hic, eum mollitia reprehenderit! Pariatur laudantium laboriosam modi aspernatur voluptatum, libero, harum corrupti similique quam iusto, fugit illo accusantium ipsum impedit quis esse eos ratione.</p>
+                <p>Consequatur velit, libero cupiditate minima molestiae beatae officiis totam sunt repellat odit eligendi quaerat possimus, adipisci hic facere maxime earum nam illo odio omnis, molestias eveniet pariatur rem? Molestiae, quia.</p>
+                <p>Tenetur sequi asperiores ut accusantium, id eos commodi voluptates saepe maxime, doloremque iure explicabo ducimus vero delectus dolor inventore officiis culpa? Nam et veniam enim excepturi omnis perspiciatis minima, quod!</p>
+                
+                <h2>House Stark</h2>
+                <p>House Stark of Winterfell is a Great House of Westeros, ruling over the vast region known as the North and the Vale as Kings in the North from their seat in Winterfell, recently retaken by the Starks from House Bolton. It is by far one of the oldest lines of Westerosi nobility, claiming a line of descent stretching back over eight thousand years. The head of the house is the Lord of Winterfell. Before the Targaryen conquest, the leaders of House Stark ruled over the region as the Kings in the North. Jon Snow is the current King in the North and the Vale, partially due to the allegiance of Petyr Baelish, the Lord Regent of the Vale, to House Stark.
+
+Their rule in the North seemingly ended after the events of the Red Wedding when House Frey and House Bolton betrayed them, after joining alliance with House Lannister. Roose Bolton personally killed King Robb Stark. Both the North and Winterfell were taken over by House Bolton, but their hold was jeopardized when Sansa Stark escaped their clutches after learning that her brothers Bran and Rickon Stark were still alive. House Stark were restored to their former stature after the Battle of the Bastards albeit at great cost with Rickon's death. Their success in this battle later leads to the resurgence of House Stark as the royal family of the North, with its vassals declaring Jon Snow as King in the North.
+
+House Stark's sigil is a grey direwolf on a white background, over a green escutcheon. They are one of the few noble Houses whose family motto is not a boast or threat. Instead, the House Stark family motto is a warning, one that no matter the circumstances will always be relevant: "Winter is Coming". </p>
+            </main>
+        <aside>
+            <h2>Aside</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus tempore, ipsum totam necessitatibus quisquam sint nam ipsam distinctio! Et eaque, illo recusandae fuga ab ipsam, fugit architecto a inventore accusantium.</p>
+            <p>Quam cumque impedit enim autem labore pariatur iusto sapiente dolore ut recusandae ab incidunt atque commodi, in necessitatibus sequi aut voluptatibus. Illum fugiat facilis fuga accusamus dolores itaque, dicta earum.</p>
+            <p>Rerum porro voluptates recusandae temporibus illo reprehenderit suscipit ad tempora dicta quasi nesciunt quod error aliquid numquam, sunt quo illum culpa modi debitis itaque, minima omnis earum consequuntur adipisci. Praesentium.</p>
+            <p>Quas eaque perferendis ut pariatur molestias ab odit, sequi facere eligendi natus ullam earum eos laborum fugiat nulla voluptatibus debitis et dolorum harum dolorem nihil perspiciatis porro quos vel, itaque?</p>
+        </aside>
+</div>
+
+
+</body>
+
+</html>
